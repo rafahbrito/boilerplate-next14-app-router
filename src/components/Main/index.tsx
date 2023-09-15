@@ -1,10 +1,10 @@
-import React from 'react'
+import * as S from './styles'
 
 function Main() {
   return (
-    <main>
+    <S.Wrapper>
       <h1>Boilerplate Next13</h1>
-    </main>
+    </S.Wrapper>
   )
 }
 
