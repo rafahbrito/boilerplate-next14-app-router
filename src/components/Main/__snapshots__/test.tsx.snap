@@ -2,8 +2,8 @@
 
 exports[`Main should render the heading 1`] = `
 .c0 {
-  background-color: #19c680;
-  color: #fff;
+  background-color: #ffffff;
+  color: black;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -14,11 +14,37 @@ exports[`Main should render the heading 1`] = `
   justify-content: center;
 }
 
+.c1 {
+  font-size: 5rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.c3 {
+  margin-top: 3rem;
+  width: min(40rem, 100%);
+}
+
 <main
   class="c0"
 >
-  <h1>
+  <h1
+    class="c1"
+  >
     Boilerplate Next13
   </h1>
+  <h2
+    class="c2"
+  >
+    Bem vindo ao meu boilerplate.
+  </h2>
+  <img
+    alt="Um desenvolvedor sentado com notebook nas pernas e imagens de programação de fundo."
+    class="c3"
+    src="/img/developerhome.svg"
+  />
 </main>
 `;

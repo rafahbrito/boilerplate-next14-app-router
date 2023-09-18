@@ -6,7 +6,9 @@ module.exports = {
     'src/**/*.ts(x)?',
     '!src/app/**', // should by tested in e2e
     '!src/lib/registry.tsx',
-    '!src/styles/**'
+    '!src/styles/**',
+    '!src/types/**',
+    '!src/**/stories.tsx'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
