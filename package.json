@@ -8,6 +8,7 @@
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --maxWorkers=25% --watch",
     "test:ci": "jest --runInBand",
+    "generate": "npx plop --plopfile generators/plopfile.js",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
@@ -49,6 +50,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^14.0.1",
+    "plop": "^4.0.0",
     "prettier": "3.0.3",
     "storybook": "^7.4.2"
   }
