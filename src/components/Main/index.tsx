@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 function Main({
-  title = 'Boilerplate Next13',
+  title = 'Boilerplate Next',
   description = 'Bem vindo ao meu boilerplate.'
 }) {
   return (
